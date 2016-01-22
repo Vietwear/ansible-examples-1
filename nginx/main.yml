@@ -1,10 +1,11 @@
 ---
-- hosts: web
+- hosts: localhost
 
   vars:
     http_port: 80
 
-  user: root
+  user: ubuntu
+  sudo: true
 
 
   tasks:
